@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy policy | AI OS Backup V1</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <a href="./">AI OS Backup V1</a>
+    <h1>Privacy policy</h1>
+    <p>AI OS Backup V1 is a single-user utility operated by its owner for personal backups.</p>
+    <h2>Google Drive access</h2>
+    <p>The utility requests <code>https://www.googleapis.com/auth/drive.file</code>. It uses this per-file access to create its backup folder and files, list backup metadata, download its encrypted files for integrity checks or restoration, and move expired backups to Drive Trash. It does not request access to the rest of the owner’s Drive or use Drive files unrelated to these backups.</p>
+    <h2>Storage and use</h2>
+    <p>The utility encrypts backup contents on the backup host before upload. Google Drive stores the encrypted archives, their integrity checksums and ordinary file metadata. The owner keeps the decryption key separately. The utility stores Google authorization credentials privately for scheduled runs.</p>
+    <p>The utility uses this data only for backup, verification, retention and restoration. It does not sell it, use it for advertising or model training, or send backup contents to an AI model. The public information pages have no sign-in form, analytics script or access to backup files. GitHub hosts these pages and Google provides Drive storage under their respective policies.</p>
+    <h2>Access, retention and removal</h2>
+    <p>Backups follow a rotating daily, weekly and monthly retention schedule. Selected checkpoints can be kept longer. Expired backups move to Drive Trash, where Google’s deletion rules apply. The owner can remove backups in Drive and revoke the app’s access in Google Account settings. Revoking access stops future operations and leaves existing backups in Drive.</p>
+    <p>For questions about these practices, use the support contact shown on the Google consent screen.</p>
+  </main>
+</body>
+</html>

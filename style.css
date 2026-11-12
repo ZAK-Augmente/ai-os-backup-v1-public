@@ -1,0 +1,10 @@
+:root { color-scheme: light; font: 17px/1.65 Arial, sans-serif; background: #f4f7f8; color: #142833; }
+body { margin: 0; }
+main { max-width: 42rem; margin: 7vh auto; padding: clamp(1.25rem, 5vw, 3rem); background: white; border-top: 5px solid #146957; }
+h1, h2 { line-height: 1.2; }
+h1 { font-size: clamp(2rem, 6vw, 3rem); }
+h2 { font-size: 1.2rem; margin-top: 1.8rem; }
+.lead { font-size: 1.25rem; }
+a { color: #065b4a; text-underline-offset: .18em; }
+nav { display: flex; flex-wrap: wrap; gap: 1.25rem; margin-top: 2rem; }
+code { overflow-wrap: anywhere; }
